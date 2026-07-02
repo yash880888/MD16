@@ -1,0 +1,27 @@
+.container3 {
+  background: #2f4156;
+  padding: 40px 112px;
+}
+
+.stat-box {
+  background: #3e5368;
+  padding: 40px;
+  color: white;
+  border-radius: 15px;
+}
+
+.stat-box h6 {
+  font-size: 22px;
+}
+
+.stat-box h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+
+ .stat-box:hover {
+  transform: translateY(-10px); /* moves up */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}

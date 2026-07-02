@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.menu span {
+  /* color: #ccc; */
+  opacity: 0;
+  cursor: pointer;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+.active {
+  /* background: #2f5f83; */
+  /* opacity: 100; */
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding: 10px;
+  border-radius: 10px;
+  /* background:blue */
+}
+
+.menu span:hover {
+  color: black;
+  border-bottom: 2px solid red;
+  opacity: 100;
+}

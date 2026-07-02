@@ -1,0 +1,51 @@
+.review-card {
+  border-radius: 10px;
+  background: #fff;
+}
+
+.review-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.person-info h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.text-warning {
+  font-size: 14px;
+}  
+.person {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+}  
+
+.review-card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.but{
+  display: flex;
+  padding: 25px 0;
+  gap: 15px;
+}
+
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;   /* 🔥 allows wrapping */
+  gap: 10px;
+}
