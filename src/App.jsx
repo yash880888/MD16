@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import Content from "./Content";
 import Features from "./Features";
 import About from "./About";
-import Student from "./student";
+import Student from "./Student";
 import Popular from "./Popular";
 import Courses from "./Courses";
 import Price from "./Price";
@@ -24,7 +24,7 @@ function App() {
       <div className={styles.main}>
         <Navbar />
         <Content />
-        <Features />i
+        <Features />
         <About />
         <Student />
         <Popular />
