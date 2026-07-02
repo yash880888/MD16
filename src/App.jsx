@@ -15,7 +15,7 @@ import Review from "./Review";
 import Start from "./Start";
 import Contact from "./Contact";
 import { Form } from "react-bootstrap";
-import Location from "./location";
+import Location from "./Location";
 import Footer from "./Footer";
 import Photo from "./Photo";
 function App() {
